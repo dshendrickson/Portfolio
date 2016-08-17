@@ -1,4 +1,4 @@
-body {
+html {
   font-family: 'Open Sans', sans-serif;
   background-color: #E8E8E8;
 }
@@ -7,15 +7,6 @@ header {
   background-color: #246080;
   height: 50px;
   padding: 0 15px;
-}
-
-h1 {
-  display: inline-block;
-  background: url('images/dog-icon.svg') no-repeat;
-  text-indent: -9990px;
-  height: 30px;
-  width: 30px;
-  margin-top: 10px;
 }
 
 nav {
@@ -28,14 +19,8 @@ nav li {
   /*color: white;*/
 }
 
-/* This is called a psudoelement */
 
-nav li:hover {
-  background-color: #E8E8E8;
-  color: black;
-}
-
-
+/* This is called a pseudoelement */
 nav a:link, a:visited {
   display: inline-block;
   padding: 17px;
@@ -43,8 +28,40 @@ nav a:link, a:visited {
   text-decoration: none;
 }
 
-
 nav a:hover, a:active {
     background-color: #E8E8E8;
     color: black;
+}
+
+section {
+  margin: 30px;
+}
+footer {
+  background-color: #246080;
+  height: 50px;
+  padding: 0 15px;
+}
+
+footer p {
+  display: inline-block;
+  float: left;
+  color: white;
+  padding: 30px;
+  /*text-indent: 0px;*/
+}
+
+h1 {
+  display: inline-block;
+  background: url('images/dog-icon.svg') no-repeat;
+  text-indent: -9990px;
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+}
+
+.social_icons {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border: 0px;
 }
