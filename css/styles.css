@@ -1,0 +1,50 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E8E8E8;
+}
+
+header {
+  background-color: #246080;
+  height: 50px;
+  padding: 0 15px;
+}
+
+h1 {
+  display: inline-block;
+  background: url('images/dog-icon.svg') no-repeat;
+  text-indent: -9990px;
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+}
+
+nav {
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  /*padding: 17px;*/
+  /*color: white;*/
+}
+
+/* This is called a psudoelement */
+
+nav li:hover {
+  background-color: #E8E8E8;
+  color: black;
+}
+
+
+nav a:link, a:visited {
+  display: inline-block;
+  padding: 17px;
+  color: white;
+  text-decoration: none;
+}
+
+
+nav a:hover, a:active {
+    background-color: #E8E8E8;
+    color: black;
+}
