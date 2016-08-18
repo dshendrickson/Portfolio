@@ -1,7 +1,13 @@
-html {
+/*** sematics ***/
+
+/* body */
+
+body {
   font-family: 'Open Sans', sans-serif;
   background-color: #E8E8E8;
 }
+
+/* header */
 
 header {
   background-color: #246080;
@@ -9,36 +15,40 @@ header {
   padding: 0 15px;
 }
 
-nav {
+header nav {
   float: right;
 }
 
-nav li {
+header nav li {
   display: inline-block;
   /*padding: 17px;*/
   /*color: white;*/
 }
 
-
 /* This is called a pseudoelement */
-nav a:link, a:visited {
+header nav a {
   display: inline-block;
   padding: 17px;
   color: white;
   text-decoration: none;
 }
 
-nav a:hover, a:active {
+header nav a:hover, a:active {
     background-color: #E8E8E8;
     color: black;
 }
 
+/* section */
+
 section {
   margin: 30px;
 }
+
+/* footer */
+
 footer {
   background-color: #246080;
-  height: 50px;
+  height: 75px;
   padding: 0 15px;
 }
 
@@ -46,9 +56,37 @@ footer p {
   display: inline-block;
   float: left;
   color: white;
-  padding: 30px;
+  padding: 20px;
   /*text-indent: 0px;*/
 }
+
+footer nav {
+  float: right;
+}
+
+footer nav li {
+  display: inline-block;
+  /*padding: 17px;*/
+  /*color: white;*/
+}
+
+footer nav li a {
+  /*display: inline-block;*/
+  /*padding: 17px;*/
+  color: white;
+}
+
+footer nav a {
+  color: white;
+  display: inline-block;
+  padding: 20px;
+}
+
+footer nav a:hover {
+    background-color: #E8E8E8;
+    color: black;
+}
+/*** tags ***/
 
 h1 {
   display: inline-block;
@@ -59,9 +97,6 @@ h1 {
   margin-top: 10px;
 }
 
-.social_icons {
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  border: 0px;
-}
+/*** ids ***/
+
+/*** classes ***/
