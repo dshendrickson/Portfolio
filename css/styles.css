@@ -1,13 +1,10 @@
-/*** sematics ***/
-
-/* body */
+/** body **/
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #E8E8E8;
 }
 
-/* header */
+/** header **/
 
 header {
   background-color: #246080;
@@ -15,17 +12,13 @@ header {
   padding: 0 15px;
 }
 
-header nav {
-  float: right;
-}
-
 header nav li {
   display: inline-block;
+  /*background-color: magenta;*/
   /*padding: 17px;*/
   /*color: white;*/
 }
 
-/* This is called a pseudoelement */
 header nav a {
   display: inline-block;
   padding: 17px;
@@ -33,24 +26,68 @@ header nav a {
   text-decoration: none;
 }
 
-header nav a:hover, a:active {
-    background-color: #E8E8E8;
-    color: black;
+header nav a:hover {
+  background-color: #FFFFFF;
+  color: black;
 }
 
-/* section */
+.headernavleft {
+  float: left;
+  /*font-size: 20px;*/
+}
 
-section {
-  margin: 30px;
+.headernavright {
+  float: right;
+}
+
+/** hero **/
+
+#hero {
+  background: url('../images/enterprise.jpg') no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 50px;
+  color: white;
+}
+
+#hero img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border: 5px solid #246080;
+}
+
+#hero h2 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.card {
+  margin: 20px;
+}
+
+.card h3 {
+  font-size: 125%;
+  margin-bottom: 15px;
+  color: #246080;
 }
 
 /* footer */
 
 footer {
+    background: #246080;
+    color: white;
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/*footer {
   background-color: #246080;
   height: 75px;
   padding: 0 15px;
-}
+}*/
 
 footer p {
   display: inline-block;
@@ -62,12 +99,13 @@ footer p {
 
 footer nav {
   float: right;
+  /*background: magenta;*/
 }
 
 footer nav li {
   display: inline-block;
   /*padding: 17px;*/
-  /*color: white;*/
+  color: white;
 }
 
 footer nav li a {
@@ -83,20 +121,17 @@ footer nav a {
 }
 
 footer nav a:hover {
-    background-color: #E8E8E8;
-    color: black;
-}
-/*** tags ***/
-
-h1 {
-  display: inline-block;
-  background: url('images/dog-icon.svg') no-repeat;
-  text-indent: -9990px;
-  height: 30px;
-  width: 30px;
-  margin-top: 10px;
+    background-color: #FFFFFF;
+    /*background: url('../icons/twitter.svg') no-repeat;*/
 }
 
-/*** ids ***/
-
-/*** classes ***/
+.twitterlink {
+  display: block;
+  /*width: 100px;
+  height: 100px;*/
+  background: url('./icons/twitter.svg') bottom;
+  /*text-indent: -99999px;*/
+}
+.twitterlink:hover {
+  background-position: 0 0;
+}
