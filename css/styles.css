@@ -73,21 +73,22 @@ header nav a:hover {
   color: #246080;
 }
 
+.card article h4 {
+  font-size: 115%;
+  margin-top: 10px;
+}
+
+.card article p {
+  margin-top: 5px;
+}
+
 /* footer */
 
 footer {
-    background: #246080;
-    color: white;
-    margin-top: 40px;
-    padding: 20px 0;
-    text-align: center;
-}
-
-/*footer {
   background-color: #246080;
   height: 75px;
   padding: 0 15px;
-}*/
+}
 
 footer p {
   display: inline-block;
