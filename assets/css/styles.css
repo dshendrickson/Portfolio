@@ -129,11 +129,6 @@ footer nav a:hover {
 
 .twitterlink {
   display: block;
-  /*width: 100px;
-  height: 100px;*/
-  /*background: url('../icons/twitter-white.svg') bottom;*/
-  /*background-repeat: no-repeat;
-  /*text-indent: -99999px;*/*/
 }
 
 .twitterlink i {
@@ -142,8 +137,27 @@ footer nav a:hover {
 
 .twitterlink:hover {
   color: black;
-  /*background-position: 0 0;
-  background: url('../icons/twitter.svg') bottom;
-  background-repeat: no-repeat;*/
+}
 
+.linkedinlink {
+  display: block;
+}
+
+.linkedinlink i {
+  font-size: 40px;
+}
+
+.linkedinlink:hover {
+  color: black;
+}
+.githublink {
+  display: block;
+}
+
+.githublink i {
+  font-size: 40px;
+}
+
+.githublink:hover {
+  color: black;
 }
