@@ -43,8 +43,9 @@ header nav a:hover {
 /** hero **/
 
 #hero {
-  background: url('../images/enterprise.jpg') no-repeat;
-  background-size: cover;
+  background: url('./assets/img/enterprise.jpg') no-repeat;
+  background-size: contain;
+  background-position-y: -350px;
   text-align: center;
   padding: 50px 0;
   margin-bottom: 50px;
@@ -74,7 +75,7 @@ header nav a:hover {
 }
 
 .card article h4 {
-  font-size: 115%;
+  font-size: 115p%;
   margin-top: 10px;
 }
 
@@ -130,9 +131,19 @@ footer nav a:hover {
   display: block;
   /*width: 100px;
   height: 100px;*/
-  background: url('./icons/twitter.svg') bottom;
-  /*text-indent: -99999px;*/
+  /*background: url('../icons/twitter-white.svg') bottom;*/
+  /*background-repeat: no-repeat;
+  /*text-indent: -99999px;*/*/
 }
+
+.twitterlink i {
+  font-size: 40px;
+}
+
 .twitterlink:hover {
-  background-position: 0 0;
+  color: black;
+  /*background-position: 0 0;
+  background: url('../icons/twitter.svg') bottom;
+  background-repeat: no-repeat;*/
+
 }
